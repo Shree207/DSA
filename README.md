@@ -8,4 +8,5 @@ The target is to achieve 100 Days of Code
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Shree207/DSA/tree/master/0007-reverse-integer) |
+| [0009-palindrome-number](https://github.com/Shree207/DSA/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
