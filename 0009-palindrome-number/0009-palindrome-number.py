@@ -1,18 +1,15 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        k=x
-        rev=0
+        dup = x
         if x < 0:
-            return(False)
-        elif x==0:
-            return(True)
+            return False
+        rev = 0
+        while x>0:
+            dig = int(x%10)
+            rev = int (rev * 10) + dig
+            x =int (x/10)
+        # print(rev)
+        if (dup==rev):
+            return True
         else:
-            while(x>0):
-                d=int(x)%10
-                rev = rev*10+d
-                x=int(x/10)
-            if k==rev:
-                return(True)
-            else:
-                return(False)
-        
+            return False
