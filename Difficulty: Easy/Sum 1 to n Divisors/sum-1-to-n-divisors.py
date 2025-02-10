@@ -3,7 +3,8 @@
 
 class Solution:
     def sumOfDivisors(self, n):
-    	#code here 
+    	#code here
+     """
     	i=1
     	summ=0
     	while (i<=n):
@@ -16,7 +17,11 @@ class Solution:
     	        j=j+1
     	    i=i+1
     	return (int(summ)) 
-
+     """
+     sum = 0
+					for i in range(1,n+1):
+         sum = sum+ (n//i)*i
+     return sum
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
